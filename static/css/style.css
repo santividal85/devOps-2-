@@ -71,3 +71,27 @@ li:last-child {
     border: none;
     background: none;
 }
+/* ── Responsividad ── */
+@media (max-width: 480px) {
+  body {
+    padding: 20px;
+  }
+
+  .todo-container {
+    padding: 20px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  input {
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  #add-btn {
+    border-radius: 4px;
+    width: 100%;
+  }
+}
